@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './header/header';
+import Navbar from './navbar/navbar';
+import Footer from './footer/footer'
+import Partners from './partners/partners';
+import Intro from './intro/intro';
+import Offerings from './offerings/offerings';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const projectStructure = (
+    <div className='mainPage'>
+        <div className='contents'>
+            <Header />
+            <Navbar />
+            <Intro />
+            <Offerings/>
+            <Partners />
+            <Footer />
+        </div>
+    </div>
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(projectStructure); 

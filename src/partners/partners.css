@@ -1,0 +1,73 @@
+
+
+.stakeHolders {
+  color: black;
+  background-color: white;
+  font-family: vazir;
+  font-size: 24px;
+  display: flex;
+  padding-left: 49vw;
+  align-items: center;
+  
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(/public/fonts/Vazir-Medium.woff) format('woff');
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .scroll-parent {
+    position: relative;
+    width: 100vw;
+    height: 20rem;
+    padding: 2rem 0;
+    overflow-x: hidden;
+  }
+  
+  .scroll-element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  
+  
+  .primary {
+    animation: primary 20s linear infinite;
+  }
+  
+  .secondary {
+    animation: secondary 20s linear infinite;
+  }
+  
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }

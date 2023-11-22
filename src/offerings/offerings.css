@@ -1,0 +1,39 @@
+
+.offerings {
+    display: flex; /* use flexbox to align the squares */
+    flex-wrap: wrap; /* allow the squares to wrap to the next row */
+    justify-content: center; /* center the squares horizontally */
+    align-items: center; /* center the squares vertically */
+    height: 500px; /* adjust the container height */
+    margin: auto; /* center the container on the page */
+    
+    background-color: #94a4a4;
+        
+    }
+    
+    /* define the style for the squares */
+    .square {
+    width: 200px; /* adjust the square width */
+    height: 200px; /* adjust the square height */
+    margin: 25px; /* add some space between the squares */
+    background-color: #545454; /* set the square background color */
+    transition: all 0.3s ease; /* add a smooth transition effect */
+    color: #fdb200;
+    font-size: 18px;
+    align-items: centert;
+    font-family: vazir;
+    direction: rtl;
+    padding: 16px;
+    }
+    
+    /* define the hover effect for the squares */
+    .square:hover {
+    transform: scale(1.1); /* make the square slightly larger */
+    box-shadow: 0 0 50px #fdb200; /* add a shadow to the square */
+    color: #FFFF;
+    }
+
+    @font-face {
+        font-family: vazir;
+        src: url(/public/fonts/Vazir-Medium.woff) format('woff');
+    }

@@ -1,0 +1,28 @@
+.sepako {
+    background-color: #fdb200;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.persian {
+    color: white;
+    font-size: 18px;
+    font-family: vazir;
+    width: 100px;
+    margin: 10px;
+    margin-left: 200px;
+}
+
+.english {
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(/public/fonts/Vazir-Medium.woff) format('woff');
+}
