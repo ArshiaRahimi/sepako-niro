@@ -1,15 +1,39 @@
 
-.offerings {
+.about {
+    background-color: #94a4a4;
+    font-family: vazir;
+    color: #fdb200;
+    font-size: 30px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 49vw;
+    align-items: center;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(/public/fonts/Vazir-Medium.woff) format('woff');
+}
+
+
+.firstRow {
     display: flex; /* use flexbox to align the squares */
     flex-wrap: wrap; /* allow the squares to wrap to the next row */
     justify-content: center; /* center the squares horizontally */
     align-items: center; /* center the squares vertically */
-    height: 500px; /* adjust the container height */
+    height: 200px; /* adjust the container height */
     margin: auto; /* center the container on the page */
-    
-    background-color: #94a4a4;
-        
-    }
+    background-color: #94a4a4;    
+}
+.secondRow {
+    display: flex; /* use flexbox to align the squares */
+    flex-wrap: wrap; /* allow the squares to wrap to the next row */
+    justify-content: center; /* center the squares horizontally */
+    align-items: center; /* center the squares vertically */
+    height: 400px; /* adjust the container height */
+    margin: auto; /* center the container on the page */
+    background-color: #94a4a4;    
+}
     
     /* define the style for the squares */
     .square {
@@ -33,7 +57,4 @@
     color: #FFFF;
     }
 
-    @font-face {
-        font-family: vazir;
-        src: url(/public/fonts/Vazir-Medium.woff) format('woff');
-    }
+    
