@@ -57,4 +57,31 @@
     color: #FFFF;
     }
 
+    #s5::before {
+        content: url("../icons/icons8-explosion-48.png");
+        display: flex;
+        justify-content: center;
+        max-width: 210%;
+        height: auto; 
+        
+    }
+
+    #s1::before {
+        content: url("../icons/icons8-boiler-64.png");
+        display: flex;
+        justify-content: center;
+        max-width: 210%;
+        height: auto; 
+        
+    }
+
+    #s2::before {
+        content: url("../icons/icons8-bulk-gas-tanker-50.png");
+        display: flex;
+        justify-content: center;
+        max-width: 210%;
+        height: auto; 
+        
+    }
+
     
